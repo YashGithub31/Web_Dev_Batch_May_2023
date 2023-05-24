@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form HTML</title>
+  </head>
+  <body>
+    <h1>Personal Details </h1>
+    <form action="" method="post" target="_blank">
+      <div>
+        <label for="Fname">First Name :</label>
+        <br />
+        <input type="text" name="Fname" id="FName" size="20" maxlength="10" placeholder="Enter your name" required/>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="Lname">Last Name :</label>
+        <br />
+        <input type="text" name="Lname"  value="Dashpute" id="LName" readonly />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="Age">Age :</label>
+        <br />
+        <input type="number" min="18" max="30" name="Age" value="Age" id="Age" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email Id:</label>
+        <br />
+        <input type="email" name="email" value="email" id="email" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="password">Create a password :</label>
+        <br />
+        <input type="password" placeholder="password" disabled />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="mob no">Contact No :</label>
+        <br />
+        <input type="tel" name="mob no" maxlength="10" value="7972325823" id="mob no"/>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="gender">Gender : </label>
+        <br />
+        <input type="radio" value="Male" id="gender" name="gender"> Male
+        <br />
+        <input type="radio" value="Female" id="gender" name="gender" /> Female
+      </div>
+
+      <br />
+
+      <div>
+        <label for="skills"> Your Skills :</label>
+        <br />
+        <input type="checkbox" name="skills"/> HTML 
+        <br />
+        <input type="checkbox" name= skills /> CSS 
+        <br />
+        <input type="checkbox" name = skills/> JS 
+      </div>
+
+      <br />
+
+      <div>
+        <label for="time"> Preferred Time for meetup :</label>
+        <input type="datetime-local" name="time"/>
+      </div>
+
+      <br />
+
+      <!-- for dropdown functionality need to use select tag -->
+      <div>
+        <label for="pet-select">Choose a pet:</label>
+
+        <select name="pet-select">
+          <option value="">--Please choose an option--</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+        </select>
+      </div>
+
+      <br>
+
+      <!-- Create a textbox -->
+      <div>
+        <label for="Messeges">Any Suggestions :</label>
+        <br>
+        <textarea name="Messeges" id="Messeges" cols="35" rows="4"></textarea>
+      </div>
+      
+      <br>
+
+      <div>
+        <input type="submit" > <input type="reset">
+      </div>
+
+      <br>
+
+      
+      <div>
+        <!-- for colors -->
+        <label for="Extra Input">Extra input types :</label>
+        <input type="color" id="Extra Input">         
+      </div>
+
+      <br>
+
+     
+      <div> 
+        <!-- Want to add 'Date' -->
+        <label for="DOB">Date of birth :</label>
+        <input type="date" id="DOB">
+      </div>
+      
+      <br>
+
+      <div>
+        <!-- Want to add 'Month' -->
+        <label for="add month">Select Month :</label>
+        <input type="month" id="add month">
+      </div>
+
+      <br>
+
+      <div>
+         <!-- Want to add 'Week' -->
+        <label for="add weeks">Select week</label>
+        <input type="Week">
+        <br>
+
+        <!-- Want to add 'file' -->
+        <br>
+        <label for="file">Choose file :</label>
+        <input type="file">
+        <br>
+
+        <!-- Want to add 'url' -->
+        <br>
+        <label for="url">Choose url :</label>
+        <input type="url" id="url">
+        <br>
+
+        <br>
+        <!-- Want to add 'button' -->
+        <label for="Press">Click Here :</label>
+        <input type="button" value="Click" id="Press">
+        <br>
+
+        <br>
+        <!-- Want to add 'range' -->
+        <label for="">Select your range :</label>
+        <input type="range">
+        <br>
+
+        <br>
+        <label for="search">Search Here :</label>
+        <input type="search">
+      </div>
+    </form>
+  </body>
+</html>
